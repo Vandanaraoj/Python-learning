@@ -1,0 +1,10 @@
+file=open("write.txt", 'w')
+file.write("Hello world")
+file.write("welcome to Python programming\n")
+file.write("This is a test file")
+file.close()
+
+file=open("write.txt", 'r')
+content=file.read()
+print(content)
+file.close()
